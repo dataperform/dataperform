@@ -405,11 +405,11 @@ p.section-subtitle {
 
 /* Service Cards Grid */
 .service-grid-wrapper {
-  margin-top: -80px;
-  margin-bottom: 40px;
+  margin-top: -50px;
+  margin-bottom: 20px;
   position: relative;
   z-index: 10;
-  padding: 0 2rem;
+  padding: 1rem 0;
 }
 
 .service-grid {
@@ -554,7 +554,7 @@ p.section-subtitle {
   }
 
   .service-grid-wrapper {
-    margin-top: -40px;
+    margin-top: -50px;
   }
   
   .service-grid {
@@ -569,7 +569,7 @@ p.section-subtitle {
   }
 
   .service-grid-wrapper {
-    margin-top: -20px;
+    margin-top: -50px;
   }
   
   .service-grid {
