@@ -319,6 +319,8 @@ body {
 }
 
 .solutions-section {
+  margin-top: -50px;
+  margin-bottom: -20px;
   padding: 1rem;
   background-color: #ffffff;
 }
@@ -600,6 +602,8 @@ p.section-subtitle {
   background-color: #1a1a1a;
   color: rgb(255, 255, 255);
   padding: 2rem 0;
+  margin-top: -50px;
+  margin-bottom: -20px;
 
 }
 
@@ -1080,6 +1084,7 @@ p.section-subtitle {
 .team-section {
   padding: 2rem 0;
   background-color: #fff;
+  margin-bottom: 20px;
 }
 
 .section-label {
@@ -1326,7 +1331,7 @@ textarea.form-control {
 /* Footer Section Styles */
 .footer-section {
   padding: 2rem;
-  margin-top: 2rem;
+  margin-top: -25px;
 }
 
 .footer-text {
@@ -1343,7 +1348,7 @@ textarea.form-control {
 @media (max-width: 575.98px) {
   .footer-section {
     padding: 1.5rem;
-    margin-top: 1.5rem;
+    margin-top: -20px;
   }
 
   .footer-text {
