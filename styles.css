@@ -319,8 +319,6 @@ body {
 }
 
 .solutions-section {
-  margin-top: -50px;
-  margin-bottom: -20px;
   padding: 1rem;
   background-color: #ffffff;
 }
@@ -407,11 +405,11 @@ p.section-subtitle {
 
 /* Service Cards Grid */
 .service-grid-wrapper {
-  margin-top: -50px;
-  margin-bottom: 20px;
+  margin-top: -80px;
+  margin-bottom: 40px;
   position: relative;
   z-index: 10;
-  padding: 1rem 0;
+  padding: 0 2rem;
 }
 
 .service-grid {
@@ -556,7 +554,7 @@ p.section-subtitle {
   }
 
   .service-grid-wrapper {
-    margin-top: -50px;
+    margin-top: -40px;
   }
   
   .service-grid {
@@ -571,7 +569,7 @@ p.section-subtitle {
   }
 
   .service-grid-wrapper {
-    margin-top: -50px;
+    margin-top: -20px;
   }
   
   .service-grid {
@@ -602,8 +600,6 @@ p.section-subtitle {
   background-color: #1a1a1a;
   color: rgb(255, 255, 255);
   padding: 2rem 0;
-  margin-top: -50px;
-  margin-bottom: -20px;
 
 }
 
@@ -1084,7 +1080,6 @@ p.section-subtitle {
 .team-section {
   padding: 2rem 0;
   background-color: #fff;
-  margin-bottom: 20px;
 }
 
 .section-label {
@@ -1331,7 +1326,7 @@ textarea.form-control {
 /* Footer Section Styles */
 .footer-section {
   padding: 2rem;
-  margin-top: -25px;
+  margin-top: 2rem;
 }
 
 .footer-text {
@@ -1348,7 +1343,7 @@ textarea.form-control {
 @media (max-width: 575.98px) {
   .footer-section {
     padding: 1.5rem;
-    margin-top: -20px;
+    margin-top: 1.5rem;
   }
 
   .footer-text {
@@ -1411,6 +1406,66 @@ textarea.form-control {
     .hero-content {
         padding: 1.5rem 0.5rem;
         width: 100%;
+    }
+}
+
+/* WhatsApp Float Button */
+.whatsapp-float {
+    position: fixed;
+    bottom: 40px;
+    right: 40px;
+    background-color: #25d366;
+    color: #fff;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 30px;
+    box-shadow: 2px 2px 3px #999;
+    z-index: 100;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    animation: whatsapp-pulse 1.5s infinite;
+    transition: all 0.3s ease;
+}
+
+.whatsapp-float:hover {
+    background-color: #128C7E;
+    color: #fff;
+    transform: translateY(-3px);
+}
+
+.whatsapp-float svg {
+    width: 32px;
+    height: 32px;
+}
+
+@keyframes whatsapp-pulse {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.1);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+/* Responsividade */
+@media screen and (max-width: 767px) {
+    .whatsapp-float {
+        width: 50px;
+        height: 50px;
+        bottom: 20px;
+        right: 20px;
+    }
+    
+    .whatsapp-float svg {
+        width: 28px;
+        height: 28px;
     }
 }
 
